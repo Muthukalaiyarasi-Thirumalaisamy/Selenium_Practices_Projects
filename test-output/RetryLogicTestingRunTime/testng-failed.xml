@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RetryLogicTestingRunTime]">
+  <listeners>
+    <listener class-name="com.Analyzer.myTrasformer"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Analyzser.RetrymethodRunTime">
+        <methods>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- Analyzser.RetrymethodRunTime -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [RetryLogicTestingRunTime] -->
